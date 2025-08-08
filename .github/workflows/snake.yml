@@ -18,8 +18,9 @@ jobs:
           github_user_name: HarshNautiyal04
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Push changes
-        uses: EndBug/add-and-commit@v9
+        - name: Push Snake to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          message: "Generated Snake Animation"
-          add: "dist/github-contribution-grid-snake.svg"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: dist
