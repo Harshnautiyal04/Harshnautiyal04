@@ -46,6 +46,7 @@
 
 ![Snake animation](https://github.com/HarshNautiyal04/HarshNautiyal04/blob/output/github-contribution-grid-snake.svg)
 
+
 ---
 
 ## 🌐 Connect with Me
